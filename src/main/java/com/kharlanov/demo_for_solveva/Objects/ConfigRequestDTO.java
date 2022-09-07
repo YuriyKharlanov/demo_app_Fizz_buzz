@@ -11,9 +11,7 @@ import java.io.Serializable;
  * Для запросов для создания или прекращения игры
  */
 @Data
-@Component
-@NoArgsConstructor
-public class ConfigRequestDTO implements Serializable {
+public class ConfigRequestDTO {
 
     StagesEnum gameState;
 

@@ -17,7 +17,7 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ConfigResponseDTO implements Serializable {
+public class ConfigResponseDTO {
     private String nameOfGame;
     private UUID gameUUID;
     private StagesEnum gameStage;

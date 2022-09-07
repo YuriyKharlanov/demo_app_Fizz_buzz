@@ -8,7 +8,6 @@ import java.util.LinkedList;
 /**
  * DTO для передачи запросов к программе с именем игры и ходами других игроков
  */
-@Component
 @Data
 public class GameStepRequestDTO {
 
